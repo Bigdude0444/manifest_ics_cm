@@ -328,7 +328,7 @@
   <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" revision="ics"/>
   <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" revision="ics"/>
   <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" />
-  <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
+  <project path="manifest" name="manifest_ics_cm" remote="TeamICS" revision="cm10" />
   <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" revision="ics"/>
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
