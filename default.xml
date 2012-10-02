@@ -8,8 +8,9 @@
            fetch="git://github.com/" 
            review="review.cyanogenmod.com" />
 
-  <remote name="benjamingwynn"
-           fetch="git://github.com/benjamingwynn/" />
+  <remote name="ev-github"
+           fetch="git://github.com/Evervolv/"
+	   review="review.evervolv.com"/>
   
   <remote  name="TeamICS"
            fetch="git://github.com/TeamICS/" />
@@ -33,7 +34,6 @@
   <project path="device/htc/common" name="android_device_htc_common" remote="TeamICS" revision="ics" />
   <project path="device/htc/heroc"  name="android_device_htc_heroc" remote="TeamICS" revision="jellybean" />
   <project path="device/htc/hero"  name="android_device_htc_hero" remote="TeamICS" revision="jellybean" />
-  <project path="device/htc/marvel"  name="android_device_htc_marvel" remote="TeamICS" revision="jellybean" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -334,5 +334,4 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-  <project path="kernel/htc/msm7227" name="cm_kernel_htc_msm7227" remote="benjamingwynn" revision="jellybean" />
 </manifest>
